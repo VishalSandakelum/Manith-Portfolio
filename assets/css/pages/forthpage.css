@@ -2,7 +2,6 @@
     position: relative;
     width: 100vw;
     height: 200vh;
-    background-color: green;
 }
 
 .experiencepagetitle{
@@ -53,7 +52,7 @@
     left: 0%;
     right: 0%;
     margin: auto;
-    top: 15%;
+    top: 20%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -184,4 +183,68 @@
     font-size: 13px;
     font-weight: 400;
     color: #666666;
+  }
+
+  .learntoolcontainer{
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    top: 27%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+  }
+
+  .learntoolinnercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    top: 10%;
+    justify-content: space-between;
+  }
+
+  .learntoolinnercontainer>div{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .learntoolinnercontainer>div>div{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    rotate: 45deg;
+    border-radius: 6px;
+    border: 1px solid #6666665f;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+
+  .learntoolinnercontainer>div>div>img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    top: 0%;
+    bottom: 0%;
+    width: 40px;
+    rotate: -45deg;
+  }
+
+  .mongodb>img{
+    position: absolute;
+    rotate: -90deg !important;
+  }
+
+  .learntoolinnercontainer>div>div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }

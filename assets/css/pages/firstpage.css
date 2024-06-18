@@ -196,6 +196,7 @@ a {
   bottom: 0%;
   right: 1%;
   margin: auto;
+  z-index: 101;
 }
 
 .wrapper .button {

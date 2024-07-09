@@ -1,4 +1,4 @@
-@media all and (min-width: 1px) and (max-width: 320px){
+@media all and (min-width: 1px) and (max-width: 426px){
     .aboutpagetitle>h1:nth-child(1) {
         font-size: 48px;
     }
@@ -22,7 +22,7 @@
     }
 
     .explaineaboutme>div:nth-child(1)>img {
-        width: 243px;
+        width: 95%;
     }
 
     .explaininfo {

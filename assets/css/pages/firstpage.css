@@ -14,9 +14,7 @@ main>section{
 
 .leftdiv{
     position: relative;
-    width: 25%;
-    border-bottom: 776px solid #72b626;
-	border-right: 250px solid transparent;
+    height: 100%;
 }
 
 .manithphoto{

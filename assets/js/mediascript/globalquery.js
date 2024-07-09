@@ -4,7 +4,7 @@ $('.hamburgerbtn').click(function(){
         $('.minimizebtnset>div>button>i').css('opacity', '100%');
         $('.minimizebtnset>div>button>span').css('opacity', '100%');
         $('.minimizebtninnercontainer').css('width', '100%');
-    }, 0.5);
+    }, 0.2);
 });
 
 $('.closebtn').click(function(){

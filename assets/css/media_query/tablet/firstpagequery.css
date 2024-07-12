@@ -1,4 +1,8 @@
 @media all and (min-width: 426px) and (max-width: 769px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
     .firstpage{
         height: 100vh;
     }

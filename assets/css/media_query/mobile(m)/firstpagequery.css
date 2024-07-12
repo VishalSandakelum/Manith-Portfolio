@@ -1,4 +1,8 @@
 @media all and (min-width: 321px) and (max-width: 376px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+
     .firstpage{
         height: 150vh;
     }
@@ -68,6 +72,10 @@
 }
 
 @media all and (min-width: 376px) and (max-width: 426px){
+    .hamburgerbtn{
+        display: block !important;
+    }
+    
     .firstpage{
         height: 150vh;
     }

@@ -69,3 +69,12 @@ function setPageAnimation(){
     $('.workspageanimateddiv').css('height', '100%');
     $('.contactpageanimateddiv').css('height', '100%');
 }
+
+function closeallbtn(){
+    $('.minimizebtninnercontainer').css('width', '0%');
+    $('.minimizebtnset>div>button>i').css('opacity', '0%');
+    $('.minimizebtnset>div>button>span').css('opacity', '0%');
+    $('.minimizebtninnercontainer').one('transitionend', function() {
+        $('.minimizebtncontainer').css('display', 'none');
+    });
+}
